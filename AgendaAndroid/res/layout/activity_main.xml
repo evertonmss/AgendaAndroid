@@ -13,7 +13,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="0.29"
+        android:layout_weight="0.02"
         android:orientation="vertical" >
 
         <Button
@@ -23,29 +23,22 @@
             android:text="Inserir Compromissos" />
 
         <Button
-            android:id="@+id/bRemoverCompromisso"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="Remover Compromisso" />
-
-        <Button
-            android:id="@+id/bCadastra"
+            android:id="@+id/bListaCompromisso"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="Listar Compromissos" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/bInforma"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="Informar Compromisso" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/bDev"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="Desenvolvedores" />
-
     </LinearLayout>
 
 </LinearLayout>
